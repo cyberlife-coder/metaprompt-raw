@@ -1,4 +1,4 @@
-### **Meta-Prompt Hyper-Détaillé – Cahier des Charges pour Documentation de Solution Complète**
+### **Cahier des Charges pour Documentation de Solution Complète**
 
 **🎯 Objectif**  
 Instruire une IA pour qu'elle agisse en tant qu'analyste technique autonome. L'IA doit disséquer une solution logicielle multi-projets de bout en bout et produire un document Markdown unique, exhaustif et immédiatement actionnable. Ce document doit servir de "cerveau externe" pour l'équipe, éliminant la connaissance tribale et accélérant drastiquement l'intégration de tout profil technique. Aucune interaction utilisateur n'est permise durant le processus.
