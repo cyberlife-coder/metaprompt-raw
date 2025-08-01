@@ -11,14 +11,14 @@ Ce projet contient une collection de **métaprompts techniques** analysés et do
 ```
 metaprompt-raw/
 ├── workflows/                 # Fichiers de métaprompts
-│   ├── audit-pentest.md       # Audit de sécurité et pentesting (5,922 octets)
-│   ├── debug-taskforce.md     # Task force de débogage multi-experts (1,064 octets)
-│   ├── doc-solution-brain.md  # Documentation technique complète (9,970 octets)
-│   ├── feature-architect.md   # Architecture de nouvelles fonctionnalités (5,504 octets)
-│   ├── feature-ui-ux.md       # Design UI/UX et développement (3,007 octets)
-│   ├── ideation-product.md    # Idéation produit (621 octets)
-│   ├── migrate-webservice.md  # Migration de webservices v8 (5,573 octets)
-│   └── scan-trivy.md          # Scan de sécurité Trivy (192 octets)
+│   ├── audit-pentest.md       # Audit de sécurité et pentesting
+│   ├── debug-taskforce.md     # Task force de débogage multi-experts
+│   ├── doc-solution-brain.md  # Documentation technique complète
+│   ├── feature-architect.md   # Architecture de nouvelles fonctionnalités
+│   ├── feature-ui-ux.md       # Design UI/UX et développement
+│   ├── ideation-product.md    # Idéation produit
+│   ├── migrate-webservice.md  # Migration de webservices v8
+│   └── scan-trivy.md          # Scan de sécurité Trivy
 ├── docs/                      # Dossier documentation supplémentaire
 ├── templates/                 # Dossier templates et exemples
 └── README.md                  # Documentation principale
@@ -26,7 +26,7 @@ metaprompt-raw/
 
 ## 📋 Description précise de chaque métaprompt
 
-### 🛡️ **audit-pentest.md** (5,922 octets)
+### 🛡️ **audit-pentest.md**
 **Cahier des charges pour audit de sécurité et pentesting**
 - **Objectif** : Analyse offensive autonome de sécurité
 - **Méthodologie** : 4 personae (Architecte sécurité, Auditeur, Pentester, Remediator)
@@ -34,7 +34,7 @@ metaprompt-raw/
 - **Sections** : Surface d'attaque, vulnérabilités, PoC, remédiation
 - **Focus** : Rapport synthétique avec preuves de concept concrètes
 
-### 🐛 **debug-taskforce.md** (1,064 octets)
+### 🐛 **debug-taskforce.md**
 **Task force de débogage multi-experts**
 - **Objectif** : Résolution systématique de problèmes complexes
 - **Équipe** : Melanie (testeuse experte), Paul (testeur expert), Fabrice (architecte), François (SecDevOps)
@@ -42,7 +42,7 @@ metaprompt-raw/
 - **Format** : Discussion multi-experts avec validation utilisateur
 - **Focus** : Identification précise de la cause racine
 
-### 📚 **doc-solution-brain.md** (9,970 octets)
+### 📚 **doc-solution-brain.md**
 **Documentation technique complète**
 - **Objectif** : Analyse autonome d'une solution logicielle multi-projets
 - **Méthodologie** : Chain of Thought avec 4 personae (Junior, Senior, Architecte, DevOps)
@@ -50,7 +50,7 @@ metaprompt-raw/
 - **Sections** : Vue d'ensemble, architecture, modèle de données, fonctions clés, CI/CD, sécurité
 - **Focus** : Documentation exhaustive éliminant la connaissance tribale
 
-### 🏗️ **feature-architect.md** (5,504 octets)
+### 🏗️ **feature-architect.md**
 **Architecture de nouvelles fonctionnalités**
 - **Objectif** : Orchestration de nouvelles fonctionnalités multi-experts
 - **Méthodologie** : 5 experts (Product Manager, Architecte, Dev, QA, DevOps)
@@ -58,7 +58,7 @@ metaprompt-raw/
 - **Format** : Planification structurée avec validation à chaque étape
 - **Focus** : Architecture robuste et évolutive
 
-### 🎨 **feature-ui-ux.md** (3,007 octets)
+### 🎨 **feature-ui-ux.md**
 **Design UI/UX et développement**
 - **Objectif** : Task-force multidisciplinaire UI/UX/Dev/QA
 - **Équipe** : Designer UX, Designer UI, Développeur Frontend, QA, DevOps
@@ -66,21 +66,21 @@ metaprompt-raw/
 - **Format** : Collaboration étroite entre design et développement
 - **Focus** : Expérience utilisateur optimale et implémentation technique
 
-### 💡 **ideation-product.md** (621 octets)
+### 💡 **ideation-product.md**
 **Idéation produit**
 - **Objectif** : Processus d'idéation et validation produit
 - **Méthodologie** : Analyse marché, définition MVP, roadmap
 - **Format** : Framework structuré pour innovation produit
 - **Focus** : Produit/market fit et stratégie produit
 
-### 🔧 **migrate-webservice.md** (5,573 octets)
+### 🔧 **migrate-webservice.md**
 **Migration de webservices v8**
 - **Objectif** : Moteur d'analyse et migration de webservices version 8
 - **Méthodologie** : Analyse de compatibilité, stratégie de migration
 - **Format** : Guide technique complet pour migrations complexes
 - **Focus** : Migration sans downtime et validation exhaustive
 
-### 🔍 **scan-trivy.md** (192 octets)
+### 🔍 **scan-trivy.md**
 **Scan de sécurité Trivy**
 - **Objectif** : Scan de sécurité automatisé avec Trivy
 - **Méthodologie** : Analyse des vulnérabilités et problèmes de sécurité
