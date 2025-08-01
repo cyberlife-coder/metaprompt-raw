@@ -1,3 +1,7 @@
+---
+description: Genere la documentation complete de la solution ou du projet
+---
+
 ### **Cahier des Charges pour Documentation de Solution Complète**
 
 **🎯 Objectif**  
