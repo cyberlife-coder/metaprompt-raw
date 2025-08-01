@@ -187,8 +187,3 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 **Auteur** : Cyberlife-coder  
 **Date de mise à jour** : 01/08/2025  
 **Version** : 3.1.0 (basée sur analyse exacte des fichiers existants)  
-**Statut** : Documentation précise basée sur l'analyse réelle des workflows existants
-
----
-
-*Cette documentation est basée sur l'analyse exacte et complète de chaque fichier workflow existant. Les descriptions reflètent fidèlement le contenu réel des métaprompts présents dans le projet.*
