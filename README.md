@@ -112,6 +112,9 @@ metaprompt-raw/
 3. Sauvegarder dans `templates/` pour réutilisation
 4. Documenter les modifications
 
+### Méthode 4 : Exemples d'utilisation
+Des exemples concrets d'utilisation pour chaque workflow sont disponibles dans le fichier [EXAMPLES.md](EXAMPLES.md). Ce fichier montre des situations réelles et des appels typiques pour chaque métaprompt.
+
 ## 📋 Format et structure des workflows
 
 ### Structure commune
