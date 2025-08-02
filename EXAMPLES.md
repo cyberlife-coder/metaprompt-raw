@@ -232,6 +232,56 @@ Un rapport de sécurité avec :
 - Recommandations de mise à jour
 - Plan d'action de remédiation
 
+## 🗃️ /sql-refactor - Refactorisation SQL Server
+
+### Situation d'usage
+Vous avez une procédure stockée complexe qui prend plusieurs minutes à s'exécuter et cause des problèmes de performance en production.
+
+### Exemple d'appel
+```
+/sql-refactor
+
+Optimisez cette procédure stockée qui prend plus de 5 minutes à s'exécuter lorsqu'elle traite plus de 100 000 enregistrements :
+
+```sql
+CREATE PROCEDURE [dbo].[GetCustomerOrdersReport]
+    @StartDate DATE,
+    @EndDate DATE,
+    @CustomerID INT = NULL
+AS
+BEGIN
+    SELECT 
+        c.CustomerName,
+        c.Email,
+        o.OrderID,
+        o.OrderDate,
+        p.ProductName,
+        od.Quantity,
+        od.UnitPrice,
+        (od.Quantity * od.UnitPrice) AS TotalPrice
+    FROM Customers c
+    INNER JOIN Orders o ON c.CustomerID = o.CustomerID
+    INNER JOIN OrderDetails od ON o.OrderID = od.OrderID
+    INNER JOIN Products p ON od.ProductID = p.ProductID
+    WHERE o.OrderDate BETWEEN @StartDate AND @EndDate
+        AND (@CustomerID IS NULL OR c.CustomerID = @CustomerID)
+    ORDER BY o.OrderDate DESC, c.CustomerName
+END
+```
+
+Contexte : Base de données SQL Server 2019, environ 2 millions de commandes, 500 000 clients. La procédure est appelée plusieurs fois par heure par l'application web.
+
+Veuillez analyser et proposer une version optimisée avec un plan de mise en production.
+```
+
+### Résultat attendu
+Des livrables incluant :
+- Code SQL refactorisé avec améliorations de performance
+- Analyse détaillée des gains attendus
+- Index suggérés
+- Zones de risque identifiées
+- Instructions de mise en production
+
 ---
 
 *Ce document a été généré pour aider les développeurs à utiliser efficacement les workflows de cette collection.*

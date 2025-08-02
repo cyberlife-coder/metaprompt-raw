@@ -4,8 +4,13 @@ description: Genere la documentation complete de la solution ou du projet
 
 ### **Cahier des Charges pour Documentation de Solution Complète**
 
-**🎯 Objectif**  
-Instruire une IA pour qu'elle agisse en tant qu'analyste technique autonome. L'IA doit disséquer une solution logicielle multi-projets de bout en bout et produire un document Markdown unique, exhaustif et immédiatement actionnable. Ce document doit servir de "cerveau externe" pour l'équipe, éliminant la connaissance tribale et accélérant drastiquement l'intégration de tout profil technique. Aucune interaction utilisateur n'est permise durant le processus.
+## 🤖 Mission de l’IA
+
+Tu es une IA spécialisée en analyse de code, architecture et DevOps. Ta mission : générer une documentation complète d’un projet multi-modules, sans intervention humaine. Ton but est de :
+
+- Rendre le projet compréhensible par tout nouveau développeur
+- Éliminer la connaissance tribale
+- Centraliser toutes les infos dans un seul fichier Markdown clair et structuré
 
 **🛠️ Démarche d'Analyse Avancée (Chain of Thought avec Personae)**  
 *L'analyse devra impérativement adopter les perspectives suivantes pour chaque section pertinente, en modulant la profondeur et l'angle de l'explication.*
@@ -31,7 +36,7 @@ Instruire une IA pour qu'elle agisse en tant qu'analyste technique autonome. L'I
 #### **Partie 1 : Contexte et Fondations**
 
 1. **Vue d’ensemble et Contexte Métier**
-   - Analyser le `README.md` principal et tout autre document de haut niveau pour résumer la mission du projet.
+   - Analyser le `README.md` principal et tout autre document de haut niveau pour résumer la mission du projet. Tu dois t'assurer que le `README.md` est complet et en parfaite adéquation avec le code réel.
    - Identifier et lister les principaux objectifs métiers que la solution vise à résoudre.
    - Déduire et lister les technologies (langages, frameworks, bases de données) utilisées pour chaque projet de la solution.
 
